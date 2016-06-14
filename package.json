@@ -1,11 +1,27 @@
 {
   "name": "gulp-components",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "description": "Write front-end components for your more basic static/semi-static websites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec -t 500 test/*.js"
   },
   "author": "Jay Pescione <jpescione@gmail.com> (https://github.com/iamdevonbutler)",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "glob": "^7.0.3",
+    "gulp-file-include": "^0.13.7",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
 }
