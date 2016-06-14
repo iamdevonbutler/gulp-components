@@ -1,0 +1,11 @@
+{
+  "name": "gulp-components",
+  "version": "0.1.0",
+  "description": "Write front-end components for your more basic static/semi-static websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Pescione <jpescione@gmail.com> (https://github.com/iamdevonbutler)",
+  "license": "MIT"
+}
